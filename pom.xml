@@ -91,11 +91,31 @@
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-netty4</artifactId>
         </dependency>
-        
+
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
             <version>4.0.35.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.Nicobar</groupId>
+            <artifactId>nicobar-core</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.Nicobar</groupId>
+            <artifactId>nicobar-groovy2</artifactId>
+            <version>0.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.netflix.Nicobar</groupId>
+            <artifactId>nicobar-example</artifactId>
+            <version>0.3.0</version>
         </dependency>
 
         <dependency>
