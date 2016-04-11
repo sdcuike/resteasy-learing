@@ -98,24 +98,14 @@
             <version>4.0.35.Final</version>
         </dependency>
         <dependency>
+            <groupId>br.com.geraldoferraz</groupId>
+            <artifactId>scanyourpath</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.Nicobar</groupId>
-            <artifactId>nicobar-core</artifactId>
-            <version>0.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.Nicobar</groupId>
-            <artifactId>nicobar-groovy2</artifactId>
-            <version>0.3.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.netflix.Nicobar</groupId>
-            <artifactId>nicobar-example</artifactId>
-            <version>0.3.0</version>
         </dependency>
 
         <dependency>
