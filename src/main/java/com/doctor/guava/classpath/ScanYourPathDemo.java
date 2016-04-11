@@ -2,7 +2,10 @@ package com.doctor.guava.classpath;
 
 import java.util.Set;
 
+import javax.ws.rs.Path;
+
 import br.com.geraldoferraz.scanyourpath.Scanner;
+import br.com.geraldoferraz.scanyourpath.searches.filters.arguments.SearchArguments;
 
 /**
  * @author sdcuike
@@ -15,8 +18,9 @@ public class ScanYourPathDemo {
      * @param args
      */
     public static void main(String[] args) {
+        System.out.println("scan:");
         Scanner scanner = new Scanner();
-        Set<Class<?>> anyWhere = scanner.allClasses().anyWhere();
+        Set<Class<?>> anyWhere = scanner.allClasses(SearchArguments.annotatedWith(Path.class)).anyWhere();
         anyWhere.stream().forEach(System.out::println);
 
     }
